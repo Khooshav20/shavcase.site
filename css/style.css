@@ -464,12 +464,11 @@ span{
     display: flex;
     align-items: center; /* Center vertically */
     justify-content: center;
-    margin-left: 20px; /* Adds space between contact form and contact details */
+    margin-left: 30px; /* Adds space between contact form and contact details */
 }
 
 /* Contact Details Styling */
 .contact-details {
-    margin-left: 30px;
     padding: 20px;
     background: transparent;
     border-radius: 8px;
