@@ -57,8 +57,8 @@ sr.reveal('.home-content p, .about-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
     strings: ['Software Engineer', 'Web Developer'],
-    typeSpeed:500,
-    backSpeed:500,
+    typeSpeed:300,
+    backSpeed:400,
     backDelay: 2500,
     loop: true
 });
