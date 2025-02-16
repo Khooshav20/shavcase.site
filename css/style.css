@@ -39,7 +39,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 0.7rem 7%;
     background: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Adds a smooth blur effect */
     display: flex;
