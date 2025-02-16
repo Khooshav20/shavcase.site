@@ -517,7 +517,7 @@ span{
     font-size: 2rem; /* Bigger phone number */
     font-weight: bold;
     color: var(--text-color);
-    animation: flipAnimation 3s infinite linear;
+    animation: flipAnimation 2s infinite linear;
     transform-origin: center;
 }
 
