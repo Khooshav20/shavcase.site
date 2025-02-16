@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | Khooshav </title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+      <header class="header">
+        <a href="#" class="logo">Shavcase</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#portfolio">Portfolio</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+      </header>
+    
+
+    <!-- home section design -->
+      <section class="home" id="home">
+          <div class="home-content">
+              <h3>Hello, It's Me</h3>
+              <h1>Khooshav Bundhoo</h1>
+              <h3>And I'm an aspiring <span class="multiple-text"></span></h3>
+              <p> Welcome to My Portfolio – Showcasing My Skills & Projects </p>
+              
+              <div class="social-media">
+                <a href="https://www.facebook.com/khooshav.bundhoo/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/khooshav-nikhil-bundhoo-1a69682a1/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.instagram.com/khooshav/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Khooshav20"><i class='bx bxl-github'></i>'></i></a>
+
+            </div>
+    
+            <a href="https://drive.google.com/file/d/1SjoLpFhWKLI_MfZjKxH4iQbCFU1ilyDE/view?usp=sharing" class="btn">Download Resume</a>
+        </div>
+
+          <div class="home-img">
+              <img src="images/home.png" alt="" />
+          </div>
+      </section>    
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+          <img src="images/about.png" alt="Profile Image" />
+      </div>
+  
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Always in <span class="motion-effect">Motion</span>— On the Field & in Tech</h3>
+            <p>
+              Born and raised in <span class="highlight">Mauritius</span>—you know, that ridiculously beautiful island people mistake for a 
+              screensaver—I came into this world already bilingual. That means I can debug in multiple languages… and also argue fluently in two tongues.
+            </p>
+    
+            <p>
+                Beyond the world of semicolons and curly braces, I am an athlete— swimmer at high-level competitions, football player, and an overall enthusiast 
+                of making life harder for myself with challenging tasks.
+            </p>
+    
+            <p>
+                I thrive in fast-paced environments, whether it’s racing against a clock in a track meet or racing against a deadline with 12 tabs open and a 
+                questionable amount of caffeine in my system. And through it all, there’s one constant: <span class="music"> Music</span>. If there’s no music 
+                playing, my brain refuses to boot properly. Whether I’m coding, working out, or pretending to work, there’s always a soundtrack running in the background.
+            </p>
+    
+            <p>
+                So, if you ever see me deep in thought, chances are I’m either solving a complex problem or just vibing to an absolute banger. 
+                <span class="highlight">Don’t hesitate to share your playlist with me 🎧 </span>
+            </p>
+
+            <div>
+              <!-- Form for submission -->
+              <form action="https://formspree.io/f/xwpvrdkb" method="POST">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    id="playlist-input"
+                    name="playlist" 
+                    placeholder="Type here..."
+                    class="sleek-input"
+                  />
+                  <button type="submit" class="btn" id="submit-btn">Drop Bangers!</button>
+                </div>
+              </form>
+            </div>
+    </section>
+
+    <!-- project section design -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="project-container">
+          <div class="project-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Cooperative Aerial System</h3>
+            <p> Quadcopter | ROS, Gazebo, Matlab, Simulink, Python </p>
+        
+            <div class="project-description" id="project-description-1" style="display: none;">
+                <img src="https://img.icons8.com/wired/100/drone-bottom-view.png" alt="drone-bottom-view" alt="drone-bottom-view" alt="drone" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+                <p><strong>CASy</strong> consists of two Unmanned Aerial Vehicles (UAVs) with arm attachments that are designed to pick up and 
+                    release payloads, and the trajectory of the aerial system will be controlled by a human force input.</p>
+                <ul>
+                    <li>Utilizes <strong>ROS</strong> for communication between UAVs.</li>
+                    <li>Implements a <strong>Kalman filter</strong> for precise force measurements.</li>
+                    <li>Validated through high-fidelity simulations in <strong>Gazebo</strong>.</li>
+                </ul>
+                <p><em>Please find attached:</em></p>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1llj2pvDXqzoZXZif6Zv2vJhI7xPJW77X/view?usp=sharing">Technical Memo 1</a>/li>
+                    <li><a href="https://drive.google.com/file/d/1VyL6C4-VQQEIdkvS6fp1S3DO4VxlY7UD/view?usp=sharing">Technical Memo 2</a></li>
+                    <li><a href="https://drive.google.com/file/d/1vCatirbv3FJ-lilBIxU13c4Ms4YsTpto/view?usp=sharing">Technical Memo 3</a>/li>
+                    <li><a href="https://drive.google.com/file/d/1_iJQ-hvMhXIJNTUBsYGg4WYZuAv5rSRj/view?usp=sharing">Project Report</a></li>
+                </ul>
+            </div>
+        
+            <!-- Buttons Container -->
+            <div class="button-container">
+                <button class="btn" onclick="toggleDescription('project-description-1')">Explore</button>
+                <a href="https://github.com/Khooshav20/Casy_Simulation" class="github-link btn">
+                    <i class='bx bxl-github'></i> 
+                </a>
+            </div>
+        </div>
+
+          <!-- Scrabble Game Simulator -->
+          <div class="project-box">
+            <i class='bx bxs-game'></i>
+            <h3>Scrabble Game Simulator</h3>
+            <p>Game Development | Java </p>
+            <div class="project-description" id="project-description-2" style="display: none;">
+                <img src="https://img.icons8.com/external-febrian-hidayat-detailed-outline-febrian-hidayat/64/external-Scrabble-board-game-febrian-hidayat-detailed-outline-febrian-hidayat.png" alt="external-Scrabble-board-game-febrian-hidayat-detailed-outline-febrian-hidayat" alt="Scrabble Image" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+                <p>A fully interactive Scrabble Game Simulator built with Java, incorporating AI-based moves, GUI interactions, and robust scoring mechanisms.</p>
+                <ul>
+                    <li>Developed a text-based version of Scrabble with complete word validation and scoring.</li>
+                    <li>Designed and implemented a user-friendly GUI using Java Swing, enhancing gameplay experience.</li>
+                    <li>Integrated AI opponent logic for competitive play and multi-level undo/redo functionality.</li>
+                    <li>Enabled save/load game states using JSON/XML formats.</li>
+                    <li>Utilized GitHub for version control and Agile-based development.</li>
+                </ul>
+            </div>
+
+              <!-- Buttons Container -->
+              <div class="button-container">
+                <button class="btn" onclick="toggleDescription('project-description-2')">Explore</button>
+                <a href="https://github.com/Khooshav20/Scrabble-Game-Replica-" class="github-link btn">
+                    <i class='bx bxl-github'></i> 
+                </a>
+            </div>
+          </div> 
+
+          <!-- Basic Photo Editing App -->
+          <div class="project-box">
+              <i class='bx bx-code-alt'></i> <!-- Keep the original icon here -->
+              <h3>Basic Photo Editing App</h3>
+              <p>Basic App Development | Python</p>
+              <div class="project-description" id="project-description-6" style="display: none;">
+                <img src="https://img.icons8.com/ios/100/photo-editor.png"
+                alt="Photo Editor Icon" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;" 
+                  alt="Photo Editor Icon" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+                  <p> A Python-based image processing tool with seamless filter application and intuitive interface. </p>
+                  <ul>
+                      <li>Developed custom image manipulation algorithms for advanced editing.</li>
+                      <li>Designed an interactive GUI for user-friendly editing.</li>
+                      <li>Implemented real-time image preview and filter adjustments.</li>
+                      <li>Optimized performance for handling large image files.</li>
+                  </ul>
+              </div>
+          
+              <!-- Buttons Container -->
+              <div class="button-container">
+                  <button class="btn" onclick="toggleDescription('project-description-6')">Explore</button>
+                  <a href="https://github.com/Khooshav20/Basic-Photo-Editing-App" class="github-link btn">
+                      <i class='bx bxl-github'></i>
+                  </a>
+              </div>
+          </div>     
+
+        <!-- Garage Management Database System -->
+        <div class="project-box">
+          <i class='bx bx-code-alt'></i> 
+          <h3>Garage Management Database System</h3>
+          <p>Database Design and Development | SQL, SQLite3, Python</p>
+          <div class="project-description" id="project-description-3" style="display: none;">
+              <img src="https://img.icons8.com/ios/50/database--v1.png" alt="database--v1" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+              <p>An advanced database management system designed to handle vehicle repairs, customer data, and inventory tracking.</p>
+              <ul>
+                  <li>Developed a relational database model using SQLite3 for structured data storage.</li>
+                  <li>Implemented an Entity-Relationship (ER) model to streamline data organization.</li>
+                  <li>Designed a Python-based command-line interface for smooth data entry and retrieval.</li>
+                  <li>Optimized SQL queries to enhance database performance.</li>
+              </ul>
+          </div>
+
+          <!-- Buttons Container -->
+          <div class="button-container">
+              <button class="btn" onclick="toggleDescription('project-description-3')">Explore</button>
+              <a href="https://github.com/Khooshav20/Database-Design-and-Development" class="github-link btn">
+                  <i class='bx bxl-github'></i>
+              </a>
+          </div>
+        </div>         
+
+        <!-- Elevator Control System -->
+        <div class="project-box">
+          <i class='bx bx-code-alt'></i>
+          <h3>Elevator Control System and Simulator</h3>
+          <p>Real-Time Systems | Java </p>
+          <div class="project-description" id="project-description-4" style="display: none;">
+            <img src="https://img.icons8.com/ios/100/elevator.png" alt="Elevator Icon" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+              <p>A real-time simulation of an intelligent elevator system with multiple floors and dynamic scheduling.</p>
+              <ul>
+                  <li>Designed an elevator control system that simulates real-world functionality.</li>
+                  <li>Implemented communication between elevator units using Datagram Sockets.</li>
+                  <li>Simulated four elevators running across 22 floors, optimizing response time.</li>
+                  <li>Developed an interactive display console for real-time monitoring.</li>
+                  <li>Used GitHub for version control and collaborative development.</li>
+              </ul>
+          </div>
+        
+          <!-- Buttons Container -->
+          <div class="button-container">
+            <button class="btn" onclick="toggleDescription('project-description-4')">Explore</button>
+            <a href="https://github.com/Khooshav20/Real-time-System--Elevator" class="github-link btn">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+      </div>     
+
+        <!-- Carleton Social Media website  -->
+          <div class="project-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Social Media Website for Carleton </h3>
+              <p>Web Development | HTML, CSS, XAMPP, PHP, SQL, JavaScript</p>
+              <div class="project-description" id="project-description-5" style="display: none;">
+                  <img src="https://img.icons8.com/ios/50/collaboration.png" alt="collaboration" style="display: block; margin: 0 auto 10px; background-color: white; padding: 10px; border-radius: 30px; width: 120px; height: 120px;">
+                  <p>A real-time simulation of an intelligent elevator system with multiple floors and dynamic scheduling.</p>
+                  <p>A fully responsive fan page dedicated to Microsoft XBOX, integrating database and interactive elements.</p>
+                  <ul>
+                      <li>Developed using HTML5, CSS, and JavaScript for a modern user experience.</li>
+                      <li>Utilized XAMPP with PHP and SQL for backend database management.</li>
+                      <li>Integrated JavaScript event listeners for dynamic interactions.</li>
+                      <li>Implemented a content management system for seamless updates.</li>
+                  </ul>
+              </div>
+
+              <!-- Buttons Container -->
+                <div class="button-container">
+                  <button class="btn" onclick="toggleDescription('project-description-5')">Explore</button>
+                  <a href="https://github.com/Khooshav20/Sysc4504-Web-Development/tree/main/Khooshav_Bundhoo_A01" class="github-link btn">
+                      <i class='bx bxl-github'></i>
+                  </a>
+                </div>
+            </div>     
+      </div>
+    </section>
+
+        <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <!-- Flex container for form & contact details -->
+      <div class="contact-container">
+          <!-- Contact Form (Now Wrapped) -->
+          <div class="contact-form-wrapper">
+              <form action="https://formspree.io/f/mdkawewa" method="POST">
+                  <div class="input-box">
+                      <input type="text" name="name" placeholder="Full Name" required>
+                      <input type="email" name="email" placeholder="Email Address" required>
+                  </div>
+                  <div class="input-box">
+                      <input type="tel" name="phone" placeholder="Mobile Number">
+                      <input type="text" name="subject" placeholder="Email Subject">
+                  </div>
+                  <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                  <input type="submit" value="Send Message" class="btn">
+              </form>
+          </div>
+
+          <!-- Contact Details Box (On Right Side) -->
+          <div class="contact-info">
+              <div class="contact-details">
+                  <h3>Get in Touch</h3>
+                  <p><strong>Email:</strong> <a href="mailto:khooshav@icloud.com">khooshav@icloud.com</a></p>
+                  <p><strong>Phone:</strong> <span id="phone-number">343-777-4085</span></p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p class="footer-left">Designed by Khooshav Bundhoo @2025</p>
+        <p class="footer-right">PS: "Shavcase" comes from "Showcase"</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
