@@ -47,6 +47,7 @@ section {
     align-items: center;
     z-index: 100;
     transition: background 0.3s ease-in-out;
+    height: 70px
 }
 
 .header.sticky {
@@ -68,7 +69,8 @@ section {
 }
 
 .logo {
-    font-size: 7.0rem;
+    padding-top: 30px;
+    font-size: 6.0rem;
     font-weight: 700;
     cursor: default;
     background: linear-gradient(45deg, var(--main-color), #ff7b00, #d9ff00, var(--text-color));
